@@ -18,7 +18,8 @@ As to the features, we took RFM model as the reference to create features based 
 ## Reproduction
 1. Execute ```mkdir data``` under repo folder
 2. Download raw data from the ```Kaggle Inclass competition link``` and put them in ```data``` folder.
-3. Run ```modeling.ipynb```.
+3. Run ```shopee.R``` and ```purchase_monthly_pivot.py```. And move the output features into ```data``` folder.
+4. Run ```modeling.ipynb```.
 
 ## Contributor
 - [Tang-Li-Jen](https://github.com/Tang-Li-Jen)
