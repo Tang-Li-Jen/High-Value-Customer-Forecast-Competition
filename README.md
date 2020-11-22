@@ -11,6 +11,9 @@ We were given 6-month purchase details, login information, and user profile, ran
 
 ## Architecture
 The model is basically developed on Lightgbm. After identifying and synthesizing valuable features, the model then predicted the labels based on those features.
+As to the features, we took RFM model as the reference to create features based on user behaviors which distinguish the high-value users from others. 
+- Lightgbm: https://lightgbm.readthedocs.io/en/latest/
+- [RFM model](https://en.wikipedia.org/wiki/RFM_(market_research))
 
 ## Reproduction
 TBD
@@ -18,6 +21,6 @@ TBD
 ## Contributor
 - [Tang-Li-Jen](https://github.com/Tang-Li-Jen)
 - [Charlie Wang](https://github.com/wwater-wang)
-- [kwho](https://github.com/kunw-ho)
+- [kunw-ho](https://github.com/kunw-ho)
 - [leo8031](https://github.com/leo8031)
 
