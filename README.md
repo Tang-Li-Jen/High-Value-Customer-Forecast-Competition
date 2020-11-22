@@ -10,10 +10,25 @@ We were given 6-month purchase details, login information, and user profile, ran
 - Kaggle InClass Competition Link: https://www.kaggle.com/c/iamthebestcoderopen2020/overview
 
 ## Architecture
-The model is basically developed on Lightgbm. After identifying and synthesizing valuable features, the model then predicted the labels based on those features.
+### Overview
+
+### Feature Engineering
 As to the features, we took RFM model as the reference to create features based on user behaviors which distinguish the high-value users from others. 
-- Lightgbm: https://lightgbm.readthedocs.io/en/latest/
+
 - [RFM model](https://en.wikipedia.org/wiki/RFM_(market_research))
+
+
+### Model Training
+The model is basically developed on Lightgbm. After identifying and synthesizing valuable features, the model then predicted the labels based on those features.
+- Lightgbm: https://lightgbm.readthedocs.io/en/latest/
+
+
+### Inferencing
+We use ```soft voting``` method to make the final submission.
+In other words, we averaged the predicted probabilities for each userid.
+Please see ```Voting.ipynb``` for details.
+
+
 
 ## Reproduction
 1. Execute ```mkdir data``` under repo folder
