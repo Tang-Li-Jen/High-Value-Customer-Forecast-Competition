@@ -3,7 +3,9 @@
 ## Background
 Attended the compettion - I'm the Best Coder! Challenge 2020 - hosted by Shopee Taiwan and won the first place.  
 
-Competition link: https://careers.shopee.tw/bestcoder/
+Official Website: https://careers.shopee.tw/bestcoder/
+Kaggle InClass Competition Link: https://www.kaggle.com/c/iamthebestcoderopen2020/overview
+## Objective
 
 
 ## Contributor
