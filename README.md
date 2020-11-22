@@ -16,8 +16,9 @@ As to the features, we took RFM model as the reference to create features based 
 - [RFM model](https://en.wikipedia.org/wiki/RFM_(market_research))
 
 ## Reproduction
-1. Download data from the ```Kaggle Inclass competition link``` above.
-2. Run ```modeling.ipynb```.
+1. Execute ```mkdir data``` under repo folder
+2. Download raw data from the ```Kaggle Inclass competition link``` and put them in ```data``` folder.
+3. Run ```modeling.ipynb```.
 
 ## Contributor
 - [Tang-Li-Jen](https://github.com/Tang-Li-Jen)
