@@ -26,7 +26,7 @@ The model is basically developed on Lightgbm. After identifying and synthesizing
 
 ### Inferencing
 We use ```soft voting``` method to make the final submission.
-In other words, we averaged the predicted probabilities for each userid.
+In other words, we averaged the predicted probabilities from top N submissions by userid.
 Please see ```Voting.ipynb``` for details.
 
 
