@@ -11,7 +11,7 @@ We were given 6-month purchase details, login information, and user profile, ran
 
 ## Architecture
 ### Overview
-![ml pipeline](https://github.com/Tang-Li-Jen/High-Value-Customer-Forecast-Competition/img/Shopee-Competition-flowchart.jpeg)
+![ml pipeline](https://github.com/Tang-Li-Jen/High-Value-Customer-Forecast-Competition/blob/main/img/Shopee-Competition-flowchart.jpeg)
 
 ### Feature Engineering
 As to the features, we took RFM model as the reference to create features based on user behaviors which distinguish the high-value users from others. 
