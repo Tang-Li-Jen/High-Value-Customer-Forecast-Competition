@@ -36,7 +36,7 @@ Please see ```Voting.ipynb``` for details.
 3. Run ```shopee.R``` and ```purchase_monthly_pivot.py```. And move the output features into ```data``` folder.
 4. Run ```modeling.ipynb```.
 
-## Contributor
+## Contributors
 - [Tang-Li-Jen](https://github.com/Tang-Li-Jen)
 - [Charlie Wang](https://github.com/wwater-wang)
 - [kunw-ho](https://github.com/kunw-ho)
