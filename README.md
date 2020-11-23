@@ -18,7 +18,7 @@ As to the features, we took RFM model as the reference to create features based 
 
 - [RFM model](https://en.wikipedia.org/wiki/RFM_(market_research))
 
-For example, we use recency from last logging or purchase detail as features. Recency has intuitive explanation that the longer time ago the last purchase/logging users have, the lower chances they show up and purchase. 
+For example, we use recency from last log-in or purchase detail as features. Recency has intuitive explanation that the longer time ago the last purchase/logging users have, the lower chances they show up and purchase. 
 As for frequency, we divided this dimension into different levels:
 
 1. Distinct days or single counts
