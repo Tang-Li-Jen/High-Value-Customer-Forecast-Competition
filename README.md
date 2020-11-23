@@ -18,6 +18,17 @@ As to the features, we took RFM model as the reference to create features based 
 
 - [RFM model](https://en.wikipedia.org/wiki/RFM_(market_research))
 
+For example, we use recency from last logging or purchase detail as features. Recency has intuitive explanation that the longer time ago the last purchase/logging users have, the lower chances they show up and purchase. 
+As for frequency, we divided this dimension into different levels:
+
+1. Distinct days or single counts
+2. Given multiple periods (within last 3, 7, 14, 30, 60, 90 days)
+3. Avg. growth rate (MoM)
+4. Avg. interval among events
+
+We combined these levels to produce multiple features, such as: how many purchases (distinct days) the user has within 30 days? Or we use growth rates and intervals to estimate if this user has intention to purchase more frequently.
+When it comes to monetary side, due to the lack of consumption data, we use single counts on purchase ignoring categories. On the other hands, though shopee offers de-identification category instead of clear labels, we still believe some categories have higher prices and contribute great information. Therefore, we count purchases group by category, and then pivot them into multiple features.
+
 
 ### Model Training
 The model is basically developed on Lightgbm. After identifying and synthesizing valuable features, the model then predicted the labels based on those features.
