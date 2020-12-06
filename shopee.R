@@ -1,11 +1,11 @@
 library(tidyverse)
 library(lubridate)
 
-login <- read_csv('login.csv')
-purch_detail <- read_csv('purchase_detail.csv')
-submission <- read_csv('submission.csv')
-user_info <- read_csv('user_info.csv')
-user_label_train <- read_csv('user_label_train.csv')
+login <- read_csv('../data/login.csv')
+purch_detail <- read_csv('../data/purchase_detail.csv')
+submission <- read_csv('../data/submission.csv')
+user_info <- read_csv('../data/user_info.csv')
+user_label_train <- read_csv('../data/user_label_train.csv')
 
 onlyId <- user_info %>%
   select(userid)
@@ -17,6 +17,8 @@ abt <- login %>%
   mutate(rececny = ymd(20200731) - max_dt) %>%
   select(-max_dt) %>%
   right_join(user_info, by = c("userid" = "userid"))
+
+abt
 
 #### freq ####
 #freq in 3 days
