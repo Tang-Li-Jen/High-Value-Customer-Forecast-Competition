@@ -45,7 +45,7 @@ Please see ```Voting.ipynb``` for details.
 ## Reproduction
 1. Execute ```mkdir data``` under repo folder
 2. Download raw data from the ```Kaggle Inclass competition link``` and put them in ```data``` folder.
-3. Run ```shopee.R``` and ```purchase_monthly_pivot.py```. And move the output features into ```data``` folder.
+3. Run ```shopee.R``` and move the output features into ```data``` folder. (Noted that ```purchase_monthly_pivot.py``` has been integrated into ```modeling.ipynb```)
 4. Run ```modeling.ipynb```.
 
 ## Contributors
